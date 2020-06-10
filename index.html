@@ -6,26 +6,29 @@
   <title>Fork Me! FCC: Test Suite Template</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
+<style>
+  @media only screen and (max-width: 600px) {
+    body {
+      color: blue;
+    }
+  }
+</style>
 
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
- 
-  <nav id="navbar" >
-    <a href="#welcome-section">welcome-section</a>
-    <a href="#projects">projects</a>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section">welcome-section</a></li>
+      <li><a href="#projects">projects</a></li>
+    </ul>
   </nav>
-
-  Hello World Developers!
-  <a id="profile-link"   href="https://github.com/Nebiha/microverse3">GITHUB LINK</a>
-
-
-
-  <section id="welcome-section">
+  <section id="welcome-section" class="welcome-section">
     <h1>Hey I am Mimic</h1>
-
+    Hello World Developers!
+    <a id="profile-link" target="_blank" href="https://github.com/Nebiha/microverse3">GITHUB LINK</a>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="projects-section">
     <h1 class="project-tile"></h1>
     <a href="https://codepen.io/freeCodeCamp/full/zNqgVx">Tribute Page</a>
   </section>
